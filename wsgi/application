@@ -3,10 +3,12 @@
 import os
 
 virtenv = os.environ['APPDIR'] + '/virtenv/'
-os.environ['PYTHON_EGG_CACHE'] = os.path.join(virtenv, 'lib/python2.6/site-packages')
+os.environ['PYTHON_EGG_CACHE'] = os.path.join(virtenv, 'lib/python3.3/site-packages')
 virtualenv = os.path.join(virtenv, 'bin/activate_this.py')
 try:
-    execfile(virtualenv, dict(__file__=virtualenv))
+	with open(virtualenv) as f:
+    code = compile(f.read(), virtualenv, 'exec')
+    exec(code, dict(__file__=virtualenv))
 except IOError:
     pass
 
