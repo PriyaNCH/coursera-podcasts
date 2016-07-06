@@ -12,4 +12,4 @@ try:
 except IOError:
 	pass
 
-from coursera_podcastsa_app import application
+from coursera_podcasts_app import application
