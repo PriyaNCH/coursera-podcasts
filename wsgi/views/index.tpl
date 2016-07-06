@@ -24,10 +24,11 @@
 				the <a href="https://github.com/coursera-dl/coursera-dl">Coursera Downloader Script</a><br />
 				as well as to <a href="https://www.coursera.org/">Coursera</a> for its content.
 				</h1>
-				<br /><br />
-				<h3>
-					This website is meant to be used responsibly without violating the <a href="https://www.coursera.org/about/terms">licensing terms</a> of coursera.
-				</h3>				
+				<br />
+				<h5>
+					This website is meant to be used responsibly without violating <br />
+					the <a href="https://www.coursera.org/about/terms">licensing terms</a> of coursera.
+				</h5>				
 			</header>
 
 		<!-- Main -->
@@ -127,6 +128,7 @@
 
 		<!-- Footer -->
 			<footer id="footer">
+				<br /><br />
 				<ul class="icons">
 					<li><a href="twitter.com/priyav" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 					<li><a href="https://github.com/PriyaNCH/coursera-podcasts" class="icon fa-github"><span class="label">Github</span></a></li>
@@ -135,7 +137,7 @@
 				<ul class="copyright">
 					<li>&copy; Coursera Podcasts. No Rights Reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 				</ul>
-				<h4>Content on this site is licensed under a Creative Commons Attribution 4.0 International license.</h4>
+				<span class="copyright">Content on this site is licensed under a <br />Creative Commons Attribution 4.0 International license.</span>
 			</footer>
 
 		<!-- Scripts -->
