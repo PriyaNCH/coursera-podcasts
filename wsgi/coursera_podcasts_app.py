@@ -11,7 +11,7 @@ def server_static(filepath):
 @route('/')
 @view('index')
 def index():
-	return dict
+	return dict()
 
 @error(404)
 def error404(error):
