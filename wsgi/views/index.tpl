@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Strata by HTML5 UP</title>
+		<title>Coursera Podcasts</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -17,10 +17,17 @@
 
 		<!-- Header -->
 			<header id="header">
-				<a href="#" class="image avatar"><img src="static/images/avatar.jpg" alt="" /></a>
-				<h1><strong>I am Strata</strong>, a super simple<br />
-				responsive site template freebie<br />
-				crafted by <a href="http://html5up.net">HTML5 UP</a>.</h1>
+				<a href="#" class="image avatar"><img src="static/images/coursera-512.png" alt="" /></a>
+				<h1><strong>Coursera Podcasts</strong><br />
+				Download your favorite coursera MOOCs as<br />
+				audio files. This Website owes its existence to <br />
+				the <a href="https://github.com/coursera-dl/coursera-dl">Coursera Downloader Script</a><br />
+				as well as to <a href="https://www.coursera.org/">Coursera</a> for its content.
+				</h1>
+				<br /><br />
+				<h3>
+					This website is meant to be used responsibly without violating the <a href="https://www.coursera.org/about/terms">licensing terms</a> of coursera.
+				</h3>				
 			</header>
 
 		<!-- Main -->
@@ -121,14 +128,14 @@
 		<!-- Footer -->
 			<footer id="footer">
 				<ul class="icons">
-					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-					<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-					<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+					<li><a href="twitter.com/priyav" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="https://github.com/PriyaNCH/coursera-podcasts" class="icon fa-github"><span class="label">Github</span></a></li>
+					<li><a href="mailto:priyav.999@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 				</ul>
 				<ul class="copyright">
-					<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					<li>&copy; Coursera Podcasts. No Rights Reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 				</ul>
+				<h4>Content on this site is licensed under a Creative Commons Attribution 4.0 International license.</h4>
 			</footer>
 
 		<!-- Scripts -->
