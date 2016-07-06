@@ -1,4 +1,4 @@
-from bottle import route, default_app, error, static_file
+from bottle import route, default_app, error, static_file, view
 
 # @route('/name/<name>')
 # def nameindex(name='Stranger'):
