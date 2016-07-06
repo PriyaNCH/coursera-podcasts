@@ -1,10 +1,10 @@
 from setuptools import setup
 
-setup(name='YourAppName',
+setup(name='coursera-podcasts',
       version='1.0',
       description='OpenShift App',
-      author='Your Name',
-      author_email='example@example.com',
-      url='http://www.python.org/sigs/distutils-sig/',
+      author='Priya',
+      author_email='vpriya.nallan@gmail.com',
+      url='http://coursera-podcasts-lilacdev.rhcloud.com',
       install_requires=['bottle'],
      )
