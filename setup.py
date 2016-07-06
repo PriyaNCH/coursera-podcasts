@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setup(name='coursera-podcasts',
+setup(name='coursera_podcasts',
       version='1.0',
       description='OpenShift App',
       author='Priya',
