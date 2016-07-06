@@ -1,12 +1,21 @@
-from bottle import route, default_app
+from bottle import route, default_app, error, static_file
 
-@route('/name/<name>')
-def nameindex(name='Stranger'):
-    return '<strong>Hello, %s!</strong>' % name
- 
+# @route('/name/<name>')
+# def nameindex(name='Stranger'):
+#     return '<strong>Hello, %s!</strong>' % name
+
+@route('/static/<filepath:path>')
+def server_static(filepath):
+	return static_file(filepath, root='/static')
+
 @route('/')
+@view('index')
 def index():
-    return '<strong>Hello World!</strong>'
+	return dict
+
+@error(404)
+def error404(error):
+	return 'Page Not found'
 
 # This must be added in order to do correct path lookups for the views
 import os
