@@ -130,14 +130,20 @@
 			<footer id="footer">
 				<br /><br />
 				<ul class="icons">
-					<li><a href="twitter.com/priyav" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="http://twitter.com/priyav" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 					<li><a href="https://github.com/PriyaNCH/coursera-podcasts" class="icon fa-github"><span class="label">Github</span></a></li>
 					<li><a href="mailto:priyav.999@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 				</ul>
 				<ul class="copyright">
-					<li>&copy; Coursera Podcasts. No Rights Reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					<li>&copy; Coursera Podcasts</li>
+					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					<li>Powered By: <a href="http://bottlepy.org/">Bottle</a></li>
 				</ul>
-				<span class="copyright">Content on this site is licensed under a <br />Creative Commons Attribution 4.0 International license.</span>
+				<span class="copyright">
+					Content on this site is licensed under a Creative Commons Attribution 4.0 <br />
+					International license.
+
+				</span>
 			</footer>
 
 		<!-- Scripts -->
