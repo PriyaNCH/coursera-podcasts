@@ -13,6 +13,26 @@ def server_static(filepath):
 def index():
 	return dict()
 
+@route('/usage')
+@view('info')
+def index():
+	return dict()
+
+@route('/credits')
+@view('info')
+def index():
+	return dict()
+
+@route('/disclaimer')
+@view('info')
+def index():
+	return dict()
+
+@route('/original')
+@view('original')
+def index():
+	return dict()
+
 @error(404)
 def error404(error):
 	return 'Page Not found'
