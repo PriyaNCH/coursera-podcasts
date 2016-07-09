@@ -6,7 +6,7 @@ from bottle import route, default_app, error, static_file, view
 
 @route('/static/<filepath:path>')
 def server_static(filepath):
-	return static_file(filepath, root='/static')
+	return static_file(filepath, root='static')
 
 @route('/')
 @view('index')
