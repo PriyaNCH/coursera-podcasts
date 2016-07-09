@@ -1,10 +1,10 @@
 from setuptools import setup
 
-setup(name='coursera_podcasts',
-      version='1.0',
+setup(name='mooc_casts',
+      version='1.1',
       description='OpenShift App',
-      author='Priya',
+      author='Vishnu Priya',
       author_email='vpriya.nallan@gmail.com',
-      url='http://coursera-podcasts-lilacdev.rhcloud.com',
+      url='http://mooccasts-lilacdev.rhcloud.com',
       install_requires=['bottle'],
      )
